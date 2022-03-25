@@ -41,13 +41,24 @@ li {
     margin-left: 25px;
 }
 
-.hero{
+/* Instead of inserting the image using CSS, I added an img element to a div
+ in order to give it a proper alt attribute for accessibility. */
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; removing this in place of a flexbox.*/
+}
+
+/* This will force the image to take up 100% of the available already defined width. */
+.hero-image {
+    width: 100%;
 }
 
 a {
@@ -57,4 +68,84 @@ a {
 
 p {
     font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Consolodating the previous three class selectors to one since they all have the same properties.*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Instead of three separate class selectors to change the h3 tags, we only need one type selector
+since we want the changes to happen to all h3 tags. */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Consolodating into one class selector for benefit */
+.benefit img { 
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Consolodated class selectors for each of the three sub sections. */
+.main-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Consolodated three image class selectors into one class selector. */
+.main-section img {
+    max-height: 200px;
+}
+
+/* Consolodated three h2 class selectors into one class selector. */
+.main-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Changed this from a class selector to a type selector since the footer is contained within a <footer></footer> element. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Changed this from a class selector to a type selector since the footer is contained within a <footer></footer> element. */
+footer h2 {
+    font-size: 20px;
 }
