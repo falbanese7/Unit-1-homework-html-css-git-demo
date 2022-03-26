@@ -1,6 +1,6 @@
 # Unit-1-homework-html-css-git-demo
 
-In this repository you will find an html file and css file for a website for the company Horiseon.
+In this repository you will find an html file, an assets folder with a css folder that contains the site's stylesheet, an images folder containing images used in the site and README.md, and a README.md file for a website for the company Horiseon.
 
 ## What does Horiseon do?
 
