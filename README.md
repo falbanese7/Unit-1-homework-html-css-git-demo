@@ -44,3 +44,5 @@ This section provides information on the benefits of Horiseon services and expla
 
 This section contains no links and is not clickable.
 
+
+Thank you for using the website!
