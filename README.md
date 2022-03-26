@@ -42,11 +42,11 @@ Clicking on the Social Media Marketing link in the header section will navigate 
 
 This section provides information on the benefits of Horiseon services and explains what each of them are. 
 
+This section contains no links and is not clickable.
+
 ### URL to Deployed Website
 
 https://falbanese96.github.io/Unit-1-homework-html-css-git-demo/#social-media-marketing
-
-This section contains no links and is not clickable.
 
 
 Thank you for using the website!
