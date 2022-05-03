@@ -46,7 +46,7 @@ This section contains no links and is not clickable.
 
 ### URL to Deployed Website
 
-https://falbanese96.github.io/Unit-1-homework-html-css-git-demo/#social-media-marketing
+https://falbanese7.github.io/Unit-1-homework-html-css-git-demo/
 
 
 Thank you for using the website!
